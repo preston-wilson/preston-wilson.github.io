@@ -1,53 +1,166 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Preston Wilson's GitHub Page</title>
+  <title>Preston Wilson's ePortfolio</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <style>
+  .fakeimg {
+    height: 200px;
+    background: #aaa;
+  }
+  </style>
 </head>
 <body>
 
-<div class="container">
-  <h1>Welcome!</h1>
-  <p>Thank you for taking the time to visit my github.io page.</p>
-  <p>Below, you'll find files associated with my final project</p>
-  <p>for SNHU's Bachelor's of Science in Computer Science project.</p>
+<div class="jumbotron text-center" style="margin-bottom:0">
+  <h1>Preston Wilson's ePortfolio</h1>
+  <p>Continue reading to find out a little bit about me!</p> 
 </div>
-<div class="container" style="height: 40%; width: 65%;">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/xa4brGMq2AM" 
-  frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  <div id="photoCarousel" class="carousel slide" data-ride="carousel">
-    <!--This ordered list represents the carousel indicators-->
-    <ol class="carousel-indicators">
-      <li data-target="#photoCarousel" data-slide-to="0" class="active"></li>
-      <li data-target="#photoCarousel" data-slide-to="1"></li>
-      <li data-target="#photoCarousel" data-slide-to="2"><li>
-    </ol>
 
-    <!--Wrapper for the slides-->
-    <div class="carousel-inner">
-      <div class="item active">
-        <img src="Afghanistan.jpg" alt="My Brothers and I overseas">
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <a class="navbar-brand" href="#"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#"></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"></a>
+      </li>    
+    </ul>
+  </div>  
+</nav>
+
+<div class="container" style="margin-top:30px">
+  <div class="row">
+    <div class="col-sm-4">
+      <h2>About Me</h2>
+      <h6>Full Stack Developer, Signals Intelligence Analyst in the United States Marine Corps, Husband, and Father</h6>
+      <div class="fakeimg">
+        <div id="demo" class="carousel slide" data-ride="carousel">
+
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+            <li data-target="#demo" data-slide-to="3"></li>
+            <li data-target="#demo" data-slide-to="4"></li>
+        </ul>
+
+        <!-- The slideshow -->
+        <div class="carousel-inner text-center" style="max-height:200px;width:auto;">
+            <div class="carousel-item active">
+                <img src="Afghanistan.jpg" alt="Afghanistan" class="img-fluid mx-auto d-block" style="height:auto;max-width:100%">
+            </div>
+            <div class="carousel-item">
+                <img src="cable.jpg" alt="My puppy" class="img-fluid mx-auto d-block" style="height:auto;max-width:100%;">
+            </div>
+            <div class="carousel-item" style="padding-bottom:50px;">
+                <img src="Lulah-baby.jpg" alt="My daughter!" class="img-fluid mx-auto d-block" style="height:auto;max-width:85%;">
+            </div>
+            <div class="carousel-item" style="padding-bottom:40px;">
+                <img src="Leo-baby.jpg" alt="My son!" class="img-fluid mx-auto d-block" style="height:auto;max-width:85%;">
+            </div>
+            <div class="carousel-item" style="padding-right:10px;padding-bottom:30px;">
+                <img src="family.jpg" alt="My family" class="img-fluid mx-auto d-block" style="height:auto;max-width:100%;">
+            </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+
+        </div>
       </div>
-      <div class="item">
-        <img src="cable.jpg" alt="My Puppy from Afghanistan">
-      </div>
-      <div class="item">
-        <img src="clown.jpg" alt="Some artwork of mine">
+      <p style="margin-top:50px;">The photos show me with my team in Afghanistan,
+      me with my puppy from Afghanistan, my daughter and I, my son and I, and
+      last but definitely not least, my wife and children together with me.</p>
+      <h3>Contact Info</h3>
+      <p>Follow the links below to learn more about me.</p>
+      <ul class="nav nav-pills flex-column">
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.linkedin.com/in/preston-wilson-3882117b/" target="_blank">LinkedIn</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.facebook.com/preston.wilson.562">Facebook</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://github.com/preston-wilson/preston-wilson.github.io">GitHub</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="https://www.youtube.com/watch?v=xa4brGMq2AM&feature=youtu.be">YouTube</a>
+        </li>
+      </ul>
+      <hr class="d-sm-none">
+    </div>
+    <div class="col-sm-8">
+      <h2>Self Assessment</h2>
+      <div class="self-assessment" style="overflow-y:scroll;">
+        <p>
+        My time at SNHU started tumultuously; I had just recently left BNSF Railway after being told that 
+        I was going to be one of many individuals who were being laid off in 2017, so beginning this educational 
+        journey was akin to hitting the reset button on life, especially with a wife and two children depending 
+        on me. Undoubtedly, I was intimidated by the world of computer science. Although I had at least some exposure 
+        to programming from my time in the United States Marine Corps, where I used Python to help parse through 
+        thousands of lines of csv files, and as a hobbyist game developer using C#, I doubted whether or not I 
+        would be able to code professionally. However, these fears slowly started to fade as I took my first few 
+        programming classes at SNHU.</p>
+	        <p>It was within these first few classes that I learned how coding is highly similar to learning a foreign 
+        language, it takes time, patience, practice, and persistence to fully understand. Also, just like when 
+        you are learning a new language, as you become more proficient you begin to make it your own. In keeping 
+        with our foreign language analogy, once you know grammar and syntax, you can begin to formulate your own 
+        sentences, paragraphs, and even books in the form of methods, classes, and projects in your respective 
+        programming language. This is where everything clicked for me and I realized that not only would I be able 
+        to program professionally, but I would also be pretty creative at it.</p>
+            <p>Just like how writers often draw inspiration from other writers, I learned to draw inspiration from other 
+        programmers and their experiences. This concept was further strengthened when I began my first job as a Junior 
+        Software Developer for a small company called Torch.AI in Leawood, Kansas. Torch is a small company, there’s 
+        less than 25 of us in total, and our two architects didn’t mind me shadowing them whenever possible while 
+        attempting to pick their brains for every tidbit of information that I could. I got to not only learn more 
+        advanced programming concepts, such as deploying applications to Kubernetes or containerization through Docker, 
+        but I also learned about more fundamental concepts, such as community accepted naming conventions for MVC 
+        controllers in C#. With these newfound programming abilities and hunger for further problem solving, I solely 
+        took on the issue of creating mock data for a web application we created for a client. Luckily for me, since 
+        the logic that I used to generate the data was solely mine, my supervisors had absolutely no qualms about me 
+        sharing it.</p>
+            <p>Creating the mock data for app.moneypeer.com (the web application we created) was the basis for my final 
+        project but getting to the point where I am at now took quite a bit of communication, experimentation, and 
+        persistence. For instance, our client initially wanted me to mimic the employment statistics of the actual 
+        population, but this left quite a few holes in the mock data since there are very few actual individuals within 
+        the farming, fishing, and forestry occupations (only about 2 per 1,000 employees). This means that if I were to 
+        generate mock data that followed the same distribution as the actual population, then I would need far more 
+        generated data to account for individuals in sparsely worked occupations. So, instead of mimicking our labor 
+        statistics, we decided to create data to account for each of the possible combinations of marital status, 
+        occupation, salary range, age range, state, education range, and gender.</p>
+            <p>In addition to smoothing over details like I’ve mentioned above, I also learned to leverage the wealth of 
+        knowledge that our client had in his respective field of expertise, finance. While our client was unable to 
+        tell the difference between frontend and backend development, he possessed a vast array of knowledge detailing 
+        how individuals manage their money, which helped me to enhance the control structures that I used for my data 
+        generation. Being able to identify areas to locate valuable information relevant to what you’re working on has 
+        proven to be a crucial part of my learning and employment as a software engineer.</p>
       </div>
     </div>
-    <!--Icons for the carousel controls-->
-    <a class="left carousel-control" href="#photoCarousel" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left"></span>
-    </a>
-    <a class="right carousel-control" href="#photoCarousel" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right"></span>
-    </a>
+  </div>
 </div>
-<div class="container">
+
+<div class="jumbotron text-center" style="margin-bottom:0">
+  <p>Thank you for visiting!</p>
 </div>
 
 </body>
